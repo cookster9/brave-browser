@@ -187,6 +187,10 @@ brave-browser> npm run apply_patches
 ...Applying 2 patches...
 ```
 
+# Enabling third-party APIs:
+
+1. Google Safe Browsing: Get an API Key with SafeBrowsing API enabled from https://console.developers.google.com/. Update the value of google_api_key in `lib/config.js` with your key or define the GOOGLE_API_KEY environment variable as per https://www.chromium.org/developers/how-tos/api-keys.
+
 # Troubleshooting
 
 See [Troubleshooting](https://github.com/brave/brave-browser/wiki/Troubleshooting) for solutions to common problems.
